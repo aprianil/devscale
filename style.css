@@ -1,0 +1,164 @@
+body {
+  font-family: Inter;
+  line-height: 1.6;
+  color: #333;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.subtitle {
+  color: #6e7a89;
+  font-weight: 400;
+  flex: 1 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  max-width: 24px;
+  margin: 24px 0;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #818181;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.feather-icons {
+  width: 16px;
+  height: 16px;
+}
+
+.projects-title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.line {
+  background: #ddd;
+  width: 480px;
+  height: 0.5px;
+  flex: 1 1 auto;
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px 16px;
+  margin-bottom: 16px;
+  flex: 1 0 auto;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.color-grey {
+  color: #6e7a89;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+.project-title {
+  font-weight: 500;
+  flex: 1 1 auto;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.project-status {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.status-active {
+  background-color: #defbed;
+  color: #01aa74;
+}
+.status-shutdown {
+  background-color: #e6f3ff;
+  color: #0066cc;
+}
+
+.status-failed {
+  background-color: #ffe6e6;
+  color: #cc0000;
+}
+
+.project-info {
+  display: flex;
+}
+
+.project-year {
+  margin-left: auto;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex: 0 1 auto;
+  font-family: monospace;
+  color: #333;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 32px;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex: 0 1 auto;
+}
+
+footer {
+  font-size: 12px;
+  margin-top: auto;
+}
